@@ -1,0 +1,20 @@
+name = "vite-streaming-ssr-demo"
+type = "javascript"
+account_id = ""
+route = ''
+zone_id = ''
+usage_model = ''
+compatibility_flags = []
+workers_dev = true
+compatibility_date = "2021-11-24"
+
+[site]
+bucket = "dist/client"
+entry-point = "."
+
+[build]
+command = ""
+watch_dir = "dist/worker"
+
+[build.upload]
+format = "service-worker"
